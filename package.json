@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html; mv ./dist/docs ./docs; rm -rf dist"
+    "build": "parcel build index.html; rm -rf docs; mv dist docs"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.11",
@@ -19,8 +19,8 @@
     "parcel": "^2.0.0-alpha.3.2"
   },
   "targets": {
-    "docs": {
-      "publicUrl": "./frontend-test-task"
+    "": {
+      "publicUrl": "../frontend-test-task"
     }
   },
   "browserslist": [
