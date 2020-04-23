@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { getLinkPreview } from 'link-preview-js'
+import { getLinkPreview } from '../modules/link-preview-js'
 
 const CORS_PROXY_BASE_PATH = 'https://cors-anywhere.herokuapp.com/'
 

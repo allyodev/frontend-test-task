@@ -8,12 +8,13 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.9.11",
-    "@material-ui/styles": "^4.9.10",
     "axios": "^0.19.2",
-    "link-preview-js": "^2.0.1",
+    "cheerio-without-node-native": "^1.0.0-rc.2",
+    "cross-fetch": "^3.0.4",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "parcel": "^2.0.0-alpha.3.2"
